@@ -2,7 +2,7 @@ import { NextResponse } from "next/server"
 import { mapAirtableRecord } from "@/lib/data"
 import { geocodeCaseWithFallback } from "@/lib/geocode-api"
 
-const AIRTABLE_TOKEN = "patwUzfjD9FXYflII.3ff6962deea260b59152184cdc4e6ff448b2903e74d459d0530d6d631db6b9d9"
+
 const BASE_ID = "appyd4Tt9kwX4VzWv"
 const TABLE_ID = "tbl4jcKxkQb4REasY"
 const TABLE_PATH = `${BASE_ID}/${TABLE_ID}`
