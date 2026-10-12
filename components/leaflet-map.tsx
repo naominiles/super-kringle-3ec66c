@@ -70,6 +70,7 @@ export default function LeafletMap({
       {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+        subdomains: "1234",
         maxZoom: 19,
         className: "leaflet-tile-base",
       }
