@@ -70,7 +70,7 @@ export default function LeafletMap({
       {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-        subdomains: "1234",
+        subdomains: "abcd",
         maxZoom: 19,
         className: "leaflet-tile-base",
       }
@@ -78,7 +78,7 @@ export default function LeafletMap({
 
     // Labels layer — light CARTO labels on transparent bg, no halo
     L.tileLayer(
-      "https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png",
+      "https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png?key=cb1_3nld_1_d44ed5ca18d7ce479057e3a4",
       {
         maxZoom: 19,
         subdomains: "abcd",
